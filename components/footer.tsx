@@ -12,7 +12,6 @@ export default function Footer() {
         This website was built with React, Next.js, TypeScript, Tailwind CSS &
         Framer Motion.
       </p>
-      <p>{name}</p>
     </footer>
   );
 }
