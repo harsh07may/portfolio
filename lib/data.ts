@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import airpnp from "@/public/airpnp.png";
 import blogger from "@/public/blogger.png";
 import reactTemplate from "@/public/react-template.png";
+import ecommerceServer from "@/public/ecommerce-server.png";
 
 export const links = [
   {
@@ -68,19 +69,36 @@ export const projectsData = [
       "Full Stack Blog Application built in NextJS.I used React, NextJS, Tailwind, Express & MongoDB",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "MongoDB"],
     imageUrl: blogger,
+    repo: "https://github.com/harsh07may/vite-react-ts-tailwind",
   },
   {
-    title: "Airpbp",
+    title: "Airpnp",
     description: "Airbnb Clone developed in React+Typescript.",
     tags: ["React", "TypeScript", "Tailwind", "Redux"],
     imageUrl: airpnp,
+    repo: "https://github.com/harsh07may/vite-react-ts-tailwind",
   },
+  {
+    title: "Ecommerce server",
+    description: "ASP.NET Core Backend developed for a e-commerce application.",
+    tags: [
+      "Dotnet-core",
+      "EntityFramework-core",
+      "MSSQL-server",
+      "AutoMapper",
+      "JWT",
+    ],
+    imageUrl: ecommerceServer,
+    repo: "https://github.com/harsh07may/Ecommerce-server/",
+  },
+
   {
     title: "React + TypeScript + Vite + TailwindCSS Template",
     description:
       "This template provides a setup to get React working in Vite. ",
     tags: ["React", "Typescript", "Vite", "Axios", "Open-source"],
     imageUrl: reactTemplate,
+    repo: "https://github.com/harsh07may/vite-react-ts-tailwind",
   },
 ] as const;
 
