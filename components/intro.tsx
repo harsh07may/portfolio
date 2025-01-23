@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               // src="https://media.licdn.com/dms/image/D4D03AQE1GlLzbsV-9g/profile-displayphoto-shrink_400_400/0/1695096189414?e=1702512000&v=beta&t=qmHbVK4-Zb4ryP94UrCdzx0bsST8sUBgILVfNwoqGbA"
-              src={"/harsh.jfif"}
+              src={"/harsh.jpg"}
               alt="Harsh's portrait"
               width="192"
               height="192"
